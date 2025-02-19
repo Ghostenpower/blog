@@ -2,25 +2,25 @@
 const momentsData = [
   {
     id: 1,
-    content: '最近在学习 Vue 3 和 Element Plus，感觉组件化开发真的很爽！',
+    content: '完成了个人博客网站的基础开发，使用 Vue 3 + Vite 构建，支持暗色模式和响应式布局。\n技术栈: Vue (72.9%), JavaScript (23.5%), CSS (1.8%), HTML (1.8%)',
     date: '2025-02-10 10:30',
     likes: 12,
     links: [
       {
-        title: 'Vue 3 文档',
-        url: 'https://vuejs.org'
+        title: '查看源码',
+        url: 'https://github.com/Ghostenpower/blog'
       }
     ]
   },
   {
     id: 2,
-    content: '分享一个很酷的前端动画库：\nGSAP (GreenSock Animation Platform) 是一个强大的 JavaScript 动画库，可以轻松创建流畅的动画效果。',
+    content: '最近在开发秒杀商城系统，基于 Vue 和 Java 实现，支持高并发秒杀功能。',
     date: '2025-02-09 15:20',
     likes: 8,
     links: [
       {
-        title: 'GSAP 官网',
-        url: 'https://greensock.com/gsap/'
+        title: '查看源码',
+        url: 'https://github.com/Ghostenpower/seckill-system'
       }
     ]
   },
@@ -28,7 +28,13 @@ const momentsData = [
     id: 3,
     content: '今天完成了博客的暗色模式，夜间阅读体验提升了不少 🌙',
     date: '2025-02-08 20:15',
-    likes: 15
+    likes: 15,
+    links: [
+      {
+        title: '查看源码',
+        url: 'https://github.com/Ghostenpower/blog'
+      }
+    ]
   }
 ]
 

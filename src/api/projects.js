@@ -5,7 +5,7 @@ const projectData = {
     title: '个人博客系统',
     description: '基于 Vue 3 + Element Plus 开发的个人博客系统',
     tech: ['Vue 3', 'Element Plus', 'Vite'],
-    link: 'https://github.com/yourusername/blog',
+    link: 'https://github.com/Ghostenpower/blog',
     details: `
 # 项目介绍
 
