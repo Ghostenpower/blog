@@ -2,11 +2,11 @@
 const articles = [
   {
     id: 1,
-    title: '深入理解 Vue3 的响应式系统',
+    title: '如何手动切换Python版本',
     platform: '掘金',
-    url: 'https://juejin.cn/post/xxxx',
-    date: '2025-02-15',
-    description: '详细解析 Vue3 响应式系统的实现原理和使用方法...'
+    url: 'https://juejin.cn/post/7472957056498073619',
+    date: '2024-02-28',
+    description: '详细介绍了在不同操作系统下手动切换 Python 版本的方法，包括环境变量配置、版本管理工具使用等实用技巧。'
   },
   {
     id: 2,

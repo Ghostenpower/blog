@@ -2,10 +2,14 @@
 const momentsData = [
   {
     id: 1,
-    content: '完成了个人博客网站的基础开发，使用 Vue 3 + Vite 构建，支持暗色模式和响应式布局。\n技术栈: Vue (72.9%), JavaScript (23.5%), CSS (1.8%), HTML (1.8%)',
+    content: '发布了一篇新文章：《Vue3+Vite+Element Plus从零搭建个人博客》\n分享了如何使用 Vue3、Vite 和 Element Plus 从零开始搭建一个现代化的个人博客系统，包括项目初始化、路由配置、组件封装等详细步骤。',
     date: '2025-02-10 10:30',
     likes: 12,
     links: [
+      {
+        title: '阅读全文',
+        url: 'https://juejin.cn/post/7472957056498073619'
+      },
       {
         title: '查看源码',
         url: 'https://github.com/Ghostenpower/blog'

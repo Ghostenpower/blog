@@ -32,11 +32,6 @@ const routes = [
     name: 'Articles',
     component: () => import('../view/articles.vue')
   },
-  {
-    path: '/seckill',
-    name: 'Seckill',
-    component: () => import('../view/seckill.vue')
-  }
 ]
 
 const router = createRouter({
