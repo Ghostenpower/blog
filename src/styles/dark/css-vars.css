@@ -1,0 +1,25 @@
+/* 为 html 元素添加过渡效果 */
+html {
+  transition: background-color 0.3s ease;
+  background-color: #F3EFFF; /* 添加浅色模式的背景色 */
+  --el-bg-color-left: #F6F7FF;
+  --el-bg-color-right: #ffffff;
+  --el-text-color: #0D0D0D;
+  --card-bg-color: #F3EFFF;
+}
+
+html.dark {
+  /* 自定义深色背景颜色 */
+  background-color: #080E12;
+  transition: background-color 0.3s ease; 
+  --el-bg-color-left:#111324;
+  --el-bg-color-right: #161829;
+  --el-text-color: #DEDEDE;
+  --card-bg-color: #080E12;
+}
+
+/* 为所有元素添加颜色过渡 */
+* {
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  color: var(--el-text-color-primary);
+}
